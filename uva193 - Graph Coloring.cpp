@@ -21,7 +21,8 @@ vector<int> g[105];
 int color[105];
 int maxx;
 int ans[105];
-
+///proti node theke color 1 diye suru krci
+///proti bar n node color 1 kora jay kina check
 int check(int x) {
   for (auto i:g[x])
   {
