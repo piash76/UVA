@@ -39,6 +39,7 @@ void solve(int idx,int sum)
     v.pop_back();
 
     solve(idx+1,sum);
+
 }
 
 int main()
@@ -60,6 +61,8 @@ int main()
 
         solve(0,0);
 
+        for(auto it:ans) printf("%d ",it);
+        printf("sum:%d\n",maxx);
 
 
     }
